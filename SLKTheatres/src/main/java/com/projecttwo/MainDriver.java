@@ -68,7 +68,6 @@ public class MainDriver {
 //		System.out.println(userDao.getUserByUsername("cjf"));
 		
 		
-		
 		System.out.println(purchaseDao.selectAll());
 		System.out.println(purchaseDao.selectAllByUser(userDao.getUserByUsername("liam").getUserId()));
 		
